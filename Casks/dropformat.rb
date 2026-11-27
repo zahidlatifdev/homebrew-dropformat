@@ -7,7 +7,7 @@ cask "dropformat" do
   desc "Private local file conversion"
   homepage "https://dropformat.app/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "DropFormat.app"
 
